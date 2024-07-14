@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.wrap2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+img{
+    border: 2px solid red;
+}
+.i1{
+    width: 400px;
+    transition: 1s;
+    &:hover{
+        width: 600px;
+    }
+}   
+.i2{
+    width: 400px;
+    transition: 1s;
+    &:hover{
+        width: 600px;
+    }
+}
